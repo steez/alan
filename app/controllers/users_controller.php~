@@ -39,6 +39,8 @@ class UsersController extends AppController {
 				}
 			}
 		}
+		$snapticUsers = $this->User->SnapticUser->find('list');
+		$this->set(compact('snapticUsers'));
 	}
 
 	function edit($id = null) {

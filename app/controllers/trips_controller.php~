@@ -41,8 +41,7 @@ class TripsController extends AppController {
 			{
 				$this->validate();//see app_controler
 			}
-			#TODO verify that user actually can modify the trip
-			#TODO actually write this function to update final_comment
+			
 		}
 	}
 

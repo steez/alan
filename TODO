@@ -19,6 +19,8 @@ server api calls
 			uid
 			gps location - longitude and latitude
 			elapsed time since the beginning of the trip
+		output
+			trip_checkin_id
 	signify the end of the run
 		input
 			trip_id
