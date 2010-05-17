@@ -1,0 +1,26 @@
+TODO
+
+server api calls
+	creating a user
+		input
+			uid from android
+		response
+			user id from sql
+	creating a trip
+		input
+			uid from android
+			name of the trip
+			a comment / text about the trip
+		output
+			trip_id
+	creating a trip_checkin
+		input
+			trip_id
+			uid
+			gps location - longitude and latitude
+			elapsed time since the beginning of the trip
+	signify the end of the run
+		input
+			trip_id
+			usr_id
+			a comment / text about the trip
